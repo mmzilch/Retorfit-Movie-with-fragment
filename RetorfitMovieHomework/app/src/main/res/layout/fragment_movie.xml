@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.MovieFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rcyMovie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        xmlns:android="http://schemas.android.com/apk/res/android" />
+
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Something went wrong!!!"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"/>
+
+</FrameLayout>
